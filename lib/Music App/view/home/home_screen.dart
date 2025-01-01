@@ -20,6 +20,8 @@ class _HomeScreenState extends State<HomeScreen> {
         title: Text("Home Screen"),
       ),
 
+      body: Column(),
+
     );
   }
 }
