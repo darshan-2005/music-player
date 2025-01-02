@@ -1,14 +1,10 @@
 import 'dart:async';
-
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
-import 'package:get/get_core/src/get_main.dart';
-import 'package:online_shop/Music%20App/view_model/splash_view_model.dart';
-import 'package:online_shop/Music%20App/views/main_tabview/main_tabview.dart';
-import 'package:online_shop/movie%20app/view/home/home_screen.dart';
 
-import '../common/colors.dart';
+import '../common_widgets/colors.dart';
+
+
 
 class SplashView extends StatefulWidget {
   const SplashView({super.key});
@@ -26,7 +22,7 @@ class _SplashViewState extends State<SplashView> {
     // TODO: implement initState
     super.initState();
     Future.delayed(Duration(seconds: 3), () {
-      Get.to(MainTabview()); // Replaces the splash screen with the home screen
+      // Get.to(MainTabview()); // Replaces the splash screen with the home screen
     });
   }
   @override

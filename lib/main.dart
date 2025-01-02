@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:online_shop/Music%20App/views/main_tabview/main_tabview.dart';
-import 'package:online_shop/Music%20App/views/splash_view.dart';
+import 'package:online_shop/Music%20App/views/home/home_view.dart';
+import 'package:online_shop/Music%20App/views/main_tabview/tab_view.dart';
 
-import 'movie app/bott_navi_screen.dart';
+import 'Music App/common_widgets/colors.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,9 +15,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      title: "Music Player",
       debugShowCheckedModeBanner: false,
-      debugShowMaterialGrid: false,
-      home:MainTabview(),
+      theme: ThemeData(
+        scaffoldBackgroundColor: AppColors.bg
+      ),
+      home: TabView(),
     );
   }
 }

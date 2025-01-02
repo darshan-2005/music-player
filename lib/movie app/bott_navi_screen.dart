@@ -24,6 +24,7 @@ class BottNaviScreen extends StatelessWidget {
             onDestinationSelected: (index){
               controller.selectedIndex.value = index;
             },
+
             destinations: [
               NavigationDestination(icon: Icon(CupertinoIcons.home,size: 30,), label: "Home"),
               NavigationDestination(icon: Icon(CupertinoIcons.heart,size: 30,), label: "shop"),
@@ -41,7 +42,7 @@ class NavigationController extends GetxController{
 
   final screen = [
     // HomeScreen(),
-    Container(color: Colors.blue,),
+
     Container(color: Colors.purple,),
     Container(color: Colors.pink,),
 
