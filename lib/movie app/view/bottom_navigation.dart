@@ -1,7 +1,5 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:online_shop/Music%20App/view/library/library_screen.dart';
-import 'package:online_shop/Music%20App/view/search/search_screen.dart';
 import 'package:online_shop/movie%20app/home_screen.dart';
 
 import 'home/home_screen.dart';
@@ -18,8 +16,8 @@ class _BottomNavigationScreenState extends State<BottomNavigationScreen> {
   int selectedIndex = 0;
   List<Widget> pages =[
     HomeScreen(),
-    SearchScreen(),
-    LibraryScreen()
+    // SearchScreen(),
+    // LibraryScreen()
   ];
   @override
   Widget build(BuildContext context) {

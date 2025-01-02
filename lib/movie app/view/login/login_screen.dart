@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:online_shop/Music%20App/view/bottom_navigation.dart';
+
+import '../bottom_navigation.dart';
 
 class LoginScreen extends StatefulWidget {
   const LoginScreen({super.key});

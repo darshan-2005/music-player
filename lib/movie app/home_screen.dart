@@ -3,7 +3,7 @@
 //
 // import 'colors.dart';
 // import 'model/slid_image_model.dart';
-// import 'view/widgets/location_widget.dart';
+// import 'views/widgets/location_widget.dart';
 //
 // class HomeScreen extends StatefulWidget {
 //   const HomeScreen({super.key});

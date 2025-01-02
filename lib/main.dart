@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:online_shop/Music%20App/view/login/login_screen.dart';
+import 'package:online_shop/Music%20App/views/main_tabview/main_tabview.dart';
+import 'package:online_shop/Music%20App/views/splash_view.dart';
 
 import 'movie app/bott_navi_screen.dart';
 
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       debugShowMaterialGrid: false,
-      home: LoginScreen(),
+      home:MainTabview(),
     );
   }
 }
